@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-labelledby="title desc">
+  <title id="title">Research Paper Site Builder：从研究兴趣到自己的论文网站</title>
+  <desc id="desc">期刊列表与研究关键词经过来源核查、证据审核，构建为论文网站；GitHub、Actions 与 Pages 分别承担版本管理、自动运行与站点托管。</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#f6f8f3"/><stop offset="1" stop-color="#e8f2ef"/></linearGradient>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 8 4 0 8" fill="none" stroke="#56877d" stroke-width="1.5"/></marker>
+  </defs>
+  <rect width="1280" height="400" rx="22" fill="url(#bg)"/>
+  <circle cx="1170" cy="35" r="168" fill="#d3e8e0" opacity=".55"/>
+  <circle cx="1170" cy="35" r="116" fill="none" stroke="#bedbd0"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+    <text x="56" y="55" fill="#32786b" font-size="15" letter-spacing="3" font-weight="600">RESEARCH PAPER SITE BUILDER</text>
+    <text x="56" y="114" fill="#153f36" font-size="40" font-weight="700">从研究兴趣，到自己的论文网站</text>
+    <text x="58" y="151" fill="#54756b" font-size="19">提供期刊与关键词，让 AI 代理带你完成接入、审核、建站与上线。</text>
+    <g transform="translate(56 195)">
+      <rect width="300" height="116" rx="14" fill="#fff" stroke="#c9ded4"/>
+      <text x="22" y="35" fill="#6b8b80" font-size="13" letter-spacing="1">01 / YOUR RESEARCH</text>
+      <text x="22" y="69" fill="#204e42" font-size="24" font-weight="600">期刊列表 + 研究关键词</text>
+      <text x="22" y="96" fill="#658477" font-size="15">范围、主题与关注方向</text>
+    </g>
+    <path d="M374 253 H437" stroke="#56877d" stroke-width="2" marker-end="url(#arrow)"/>
+    <g transform="translate(458 195)">
+      <rect width="300" height="116" rx="14" fill="#fff" stroke="#c9ded4"/>
+      <text x="22" y="35" fill="#6b8b80" font-size="13" letter-spacing="1">02 / BUILD WITH EVIDENCE</text>
+      <text x="22" y="69" fill="#204e42" font-size="24" font-weight="600">核查来源 · 保留证据</text>
+      <text x="22" y="96" fill="#658477" font-size="15">采集、去重、导读与审核</text>
+    </g>
+    <path d="M776 253 H839" stroke="#56877d" stroke-width="2" marker-end="url(#arrow)"/>
+    <g transform="translate(860 195)">
+      <rect width="364" height="116" rx="14" fill="#1c5c4c"/>
+      <text x="22" y="35" fill="#b7dace" font-size="13" letter-spacing="1">03 / YOUR PAPER WATCH</text>
+      <text x="22" y="69" fill="#fff" font-size="24" font-weight="600">一个持续更新的论文观察站</text>
+      <text x="22" y="96" fill="#c7e2d8" font-size="15">目录、检索、详情与研究动态</text>
+    </g>
+    <text x="58" y="360" fill="#52796b" font-size="16">GitHub 管理版本</text>
+    <circle cx="254" cy="354" r="3" fill="#8aac9d"/>
+    <text x="278" y="360" fill="#52796b" font-size="16">Actions 自动运行</text>
+    <circle cx="481" cy="354" r="3" fill="#8aac9d"/>
+    <text x="506" y="360" fill="#52796b" font-size="16">Cloudflare Pages 托管网站</text>
+  </g>
+</svg>
