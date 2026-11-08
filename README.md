@@ -4,6 +4,8 @@
 
 本项目整理自 EQHOT 的实际建设经验，主路线为 **GitHub 私有仓库 + GitHub Actions + Cloudflare Pages**：GitHub 管理代码与数据，Actions 执行采集和审核，Pages 托管经过校验的网站。这里的 Pages 默认指 Cloudflare Pages；操作手册也说明了 GitHub Pages 替代路线。
 
+EQHOT 参考 [AIHOT 开源项目](https://github.com/KKKKhazix/AIHOT) 构建，借鉴其信息聚合与自动化处理思路，并面向学术论文追踪进行了领域化设计。感谢 AIHOT 项目及其贡献者的开源分享。
+
 这是供 AI 代理执行的 Skill 与施工手册。它包含配置校验工具，采集器和网站由代理根据你的输入在新项目中实现；下载后不会凭空出现已上线的网站。不需要访问 EQHOT 私有仓库，也不需要先准备模型登录。
 
 ## 下载与安装
