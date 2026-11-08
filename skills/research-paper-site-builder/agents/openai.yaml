@@ -1,0 +1,4 @@
+interface:
+  display_name: "个性化论文网站构建"
+  short_description: "从期刊和研究关键词逐步构建论文网站，接通 GitHub 协作与 Pages 发布"
+  default_prompt: "使用 $research-paper-site-builder，根据我提供的期刊列表和研究领域关键词，构建并验证个性化论文网站，准备 GitHub 与 Cloudflare Pages 协作部署。"

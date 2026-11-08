@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "site": {
+    "name": "Battery Paper Watch",
+    "slug": "battery-paper-watch",
+    "language": "zh-CN",
+    "timezone": "Asia/Shanghai",
+    "url": null,
+    "access": "public",
+    "description": "追踪固态电池与界面研究的期刊论文"
+  },
+  "scope": {
+    "includeAny": ["solid-state battery", "solid-state batteries", "solid state battery", "solid state batteries", "固态电池", "ion transport", "ionic transport", "离子传输"],
+    "includeAllGroups": [["lithium metal", "锂金属"], ["interface", "interphase", "界面"]],
+    "excludeAny": ["lead-acid battery", "铅酸电池"],
+    "ambiguityTerms": ["cell", "interface"],
+    "topics": [
+      { "id": "solid-electrolyte", "name": "固态电解质", "keywords": ["solid electrolyte", "固态电解质"] },
+      { "id": "ion-transport", "name": "离子传输", "keywords": ["ion transport", "ionic conductivity", "离子传输"] }
+    ]
+  },
+  "journals": [
+    { "id": "nature-communications", "name": "Nature Communications", "mode": "targeted", "enabled": true, "source": { "type": "pending", "status": "pending" } },
+    { "id": "science-advances", "name": "Science Advances", "mode": "targeted", "enabled": true, "source": { "type": "pending", "status": "pending" } }
+  ],
+  "collection": { "lookbackDays": 90, "overlapDays": 7, "maxPerSource": 50, "timeoutMs": 20000, "maxRetries": 1 },
+  "review": { "mode": "manual", "autoPublish": false, "highlightsRequireHuman": true },
+  "deployment": { "provider": "cloudflare-pages", "repository": null, "projectName": "battery-paper-watch", "productionBranch": "main", "basePath": "/" },
+  "schedule": { "enabled": false, "cronUtc": "17 20 * * *", "displayLocal": "次日 04:17 Asia/Shanghai；UTC cron，可能延迟" }
+}
